@@ -35,6 +35,10 @@ import edu.ucsb.cs156.example.entities.User;
 import edu.ucsb.cs156.example.repositories.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * This class defines the security configuration for the application.
+ */
+
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
